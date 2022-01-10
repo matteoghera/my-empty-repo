@@ -15,6 +15,7 @@ git add README.md
 git commit -m "first commit"
 git branch -M master
 git remote add origin https://github.com/matteoghera/my-empty-repo.git
+# ---> git remote add origin https://[TOKEN]@github.com/matteoghera/my-empty-repo.git <--- new version!!!
 git push -u origin master
 ```
 
@@ -26,7 +27,7 @@ git branch -M master
 git push -u origin master
 ```
 
-###…or import code from another repository
+### …or import code from another repository
 
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
@@ -55,6 +56,6 @@ git branch -M master
 git push -u origin master
 ```
 
-###…or import code from another repository
+### …or import code from another repository
 
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
